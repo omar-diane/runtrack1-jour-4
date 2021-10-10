@@ -1,0 +1,78 @@
+body {
+    font-style: italic;
+    margin: 0%;
+    padding: 0%;
+    background-color: blanchedalmond;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0%;
+    position: sticky;
+    top: 0%;
+    background-color: snow;
+}
+
+nav .onglets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .onglets p {
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav .onglets a {
+    color: black;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+header video {
+    margin: 10px;
+}
+
+.main {
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.students {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.students .student {
+    margin-right: 0px;
+}
+
+.students .student img {
+    width: 100px;
+}
+
+footer {
+    background-color: red;
+    font-family: cursive;
+    margin: 0%;
+    top: 0%;
+}
+
+
+
+
+
+
+
